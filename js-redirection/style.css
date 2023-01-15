@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+@media all {
+    #redirect {
+        text-align: center;
+        padding: 3em 1em;
+    }
+}

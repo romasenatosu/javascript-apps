@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+@media all {
+    *, *::after, *::before {
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        background-image: url("img/bg.webp");
+        background-size: cover;
+        background-origin: border-box;
+    }
+
+    form {
+        width: max-content;
+        margin: 5em auto;
+    }
+
+    label {
+        color: black;
+    }
+
+    input {
+        margin: 7px 0;
+        padding: 7px;
+        width: 250px;
+    }
+
+    input[type='submit'] {
+        width: 100%;
+        margin-top: 0;
+        background-color: dodgerblue;
+        color: white;
+        cursor: pointer;
+        border-radius: 10px;
+        border: none;
+        outline: none;
+    }
+
+    h4 {
+        color: orangered;
+        text-align: center;
+        font-weight: bold;
+    }
+}

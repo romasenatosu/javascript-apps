@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+@media all {
+    *, *::before, *::after {
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    table {
+        width: calc(100% - 2em);
+        margin: 1em;
+        border-collapse: collapse;
+
+    }
+
+    td, th {
+        border: 1px solid black;
+        width: 33%;
+    }
+
+    td {
+        padding: 0.5em;
+    }
+}

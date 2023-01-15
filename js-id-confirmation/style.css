@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+@media all {
+    *, *::before, *::after {
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        background-image: url("img/bg.jpg");
+        background-size: cover;
+        background-origin: border-box;
+    }
+
+    form {
+        display: block;
+        width: 25%;
+        margin: 5em auto;
+        text-align: center;
+    }
+
+    input  {
+        width: 100%;
+        padding: 5px;
+        border: 2px solid dodgerblue;
+    }
+
+    input[type='submit'] {
+        width: max-content;
+        margin-left: auto;
+        display: block;
+        border: none;
+        outline: none;
+        background-color: dodgerblue;
+        color: white;
+        padding: 5px;
+        margin-top: 5px;
+        cursor: pointer;
+    }
+}

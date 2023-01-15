@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+/*
+    variables
+*/
+
+:root {
+
+}
+
+/*
+    tag selectors
+*/
+
+body {
+    background: var(--bs-light);
+}
+
+/*
+    id selectors
+*/
+
+#status {
+
+}
+
+#canvas {
+    border: 10px solid var(--bs-danger);
+}
+
+/*
+    class selectors
+*/
+
+/*
+    responsive area
+*/
